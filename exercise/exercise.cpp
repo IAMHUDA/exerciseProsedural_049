@@ -9,7 +9,7 @@ int nilaibinggris[20];   //SEBUAH ARRAY dengan tipe data integer
 void inputdata() {          
 	for (int i = 0; i < kandidat; i++) {      // //digunakan untuk membuat sebuah loop dengan variabel i yang dimulai dari nilai 0 dan berakhir pada nilai yang kurang dari Kandidat.Dalam loop ini, setiap kali loop dijalankan, variabel i akan bertambah satu. Loop akan terus dijalankan selama nilai i masih kurang dari Kandidat.
 		cout << "masukan nama kandidat - " << i + 1 << " = ";
-		cin.getline(nama[i], 50);             //Argumen pertama (nama[i]) adalah nama dari array of characters atau string yang akan menyimpan input, sedangkan argumen kedua (50) menunjukkan batas maksimum jumlah karakter yang dapat dibaca.
+		cin.getline(nama[i], 50);             //Argumen pertama (nama[i]) adalah nama dari  array of characters atau string yang akan menyimpan input, sedangkan argumen kedua (50) menunjukkan batas maksimum jumlah karakter yang dapat dibaca.
 		cout << "masukan nilai matematika = ";
 		cin >> nilaimtk[i];
 		cout << "masukan nilai bahasa inggris = ";
